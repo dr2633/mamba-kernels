@@ -1,0 +1,22 @@
+# Essential dependencies
+mamba-ssm
+
+# PyTorch (CUDA-enabled version)
+torch --index-url https://download.pytorch.org/whl/cu122
+
+# CUDA-related packages
+triton
+
+# Utility libraries
+numpy
+einops
+huggingface-hub
+transformers
+
+# Benchmarking and profiling tools
+jupyter
+matplotlib
+
+# Optional tools
+ipykernel
+ipython
